@@ -6,7 +6,7 @@
 /*   By: pdrettas <pdrettas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/24 01:14:42 by pdrettas          #+#    #+#             */
-/*   Updated: 2026/04/27 23:04:06 by pdrettas         ###   ########.fr       */
+/*   Updated: 2026/11/07 13:45:23 by pdrettas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@
 class Span
 {
     private: 
-        std::vector<int> _nums; // vector filled w digits/numbers
+        std::vector<int> _nums; 
         unsigned int _maxSize; // size/capacity of vector
                 
     public:

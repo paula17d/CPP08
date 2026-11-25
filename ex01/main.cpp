@@ -6,7 +6,7 @@
 /*   By: pdrettas <pdrettas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/22 00:27:53 by pdrettas          #+#    #+#             */
-/*   Updated: 2026/04/27 23:04:07 by pdrettas         ###   ########.fr       */
+/*   Updated: 2026/11/25 16:48:25 by pdrettas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int main ()
         std::cout << BLUE << "TEST 1 - calculate spans" << RESET << std::endl;
         sp1.addNumber(10);
         sp1.addNumber(22);
-        sp1.addNumber(20);
+        sp1.addNumber(5);
         
         std::cout << "Shortest Span: " << sp1.shortestSpan() << std::endl;
         std::cout << "Longest Span: " << sp1.longestSpan() << std::endl;

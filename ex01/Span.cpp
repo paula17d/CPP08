@@ -6,7 +6,7 @@
 /*   By: pdrettas <pdrettas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/24 01:14:32 by pdrettas          #+#    #+#             */
-/*   Updated: 2026/04/28 18:07:45 by pdrettas         ###   ########.fr       */
+/*   Updated: 2026/11/25 16:51:39 by pdrettas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -124,7 +124,7 @@ size_t Span::shortestSpan() const
 size_t Span::longestSpan() const
 {
     if (this->_nums.size() < 2)
-    throw NoSpanFound();
+        throw NoSpanFound();
 
     std::vector<int> sortedNums = this->_nums;
 

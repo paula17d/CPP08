@@ -6,7 +6,7 @@
 /*   By: pdrettas <pdrettas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/24 01:19:43 by pdrettas          #+#    #+#             */
-/*   Updated: 2026/04/27 23:37:36 by pdrettas         ###   ########.fr       */
+/*   Updated: 2026/11/07 13:42:40 by pdrettas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 #include <iostream>
 #include <algorithm>
 #include <list>
+#include <stdexcept>
 
 #define RED "\033[31m"
 #define GREEN "\033[32m"
